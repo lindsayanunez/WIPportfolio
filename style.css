@@ -1,0 +1,135 @@
+
+.Header{
+  background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header.jpg");
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position:center;
+  padding: 200px;
+  margin-bottom: 30px;
+}
+
+body {
+  color: #A9A9A9;
+  font-family: 'Raleway', sans-serif;
+  background-color:#EFEFEF;
+
+}
+
+h1{
+
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #d77924;
+  margin: 10px;
+  font-size: 100px;
+}
+
+h2{
+
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #d77924;
+  padding: 30px;
+  font-size: 50px;
+}
+
+
+i{
+  color: #d77924;
+  padding-top: 10px;
+}
+
+.center1{
+  text-align:center;
+}
+.center2{
+  text-align:center;
+}
+.center3{
+  text-align:center;
+}
+
+.laptop {
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d77924;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin:20px;
+}
+
+.user {
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d77924;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin:20px;
+}
+
+.search {
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d77924;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin:20px;
+}
+
+.about {
+  background-color: #CAEBF2;
+  padding: 100px;
+  margin-top:70px;
+}
+
+/* -----------------PROJECTS------------------*/
+
+#project1 h3{
+  width:50%;
+}
+
+#project1 button{
+  width:50%;
+}
+
+
+/* -----------------Education------------------*/
+
+  #education h2{
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em;
+  }
+
+  h4{
+    text-align: center;
+    font-size:1em;
+  }
+
+  #lsu{
+    padding-top:3%;
+    padding-bottom:3%;
+
+  }
+
+/* -----------------Footer------------------*/
+
+.footer{
+    background-color: #d77924;
+    background-size: 100%;
+    text-align: center;
+    color: #efefef;
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.footer i {
+  color:#efefef;
+}
+
