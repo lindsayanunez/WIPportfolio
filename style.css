@@ -1,5 +1,4 @@
-
-.Header{
+.header{
   background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header.jpg");
   background-repeat:no-repeat;
   background-size:100%;
@@ -21,7 +20,6 @@ h1{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #d77924;
   margin: 10px;
-  font-size: 100px;
 }
 
 h2{
@@ -30,9 +28,15 @@ h2{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #d77924;
   padding: 30px;
-  font-size: 50px;
 }
 
+.header h1{
+font-size: 125px;
+}
+
+.header h2{
+  font-size: 75px;
+}
 
 i{
   color: #d77924;
