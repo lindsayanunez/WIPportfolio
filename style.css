@@ -139,3 +139,9 @@ i{
   padding:1em 1em 1em 1em;
 }
 
+@media screen and (max-width: 585px){
+  .footer i {
+  font-size: 25px;
+  padding:1em 0.5em 1em 0.5em;
+}
+
