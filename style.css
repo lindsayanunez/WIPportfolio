@@ -124,6 +124,11 @@ i{
 /* -----------------Footer------------------*/
 
 .footer{
+    width: 100%;
+     float:left;
+        width:109%;
+        margin-left:-5%;
+        margin-bottom: 0;
     background-color: #d77924;
     background-size: 100%;
     text-align: center;
@@ -144,4 +149,3 @@ i{
   font-size: 25px;
   padding:1em 0.5em 1em 0.5em;
 }
-
