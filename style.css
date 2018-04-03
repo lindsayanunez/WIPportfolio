@@ -93,14 +93,19 @@ i{
 }
 
 /* -----------------PROJECTS------------------*/
-
-#project1 h3{
-  width:50%;
+.projects ul{
+  text-align: center;
 }
 
-#project1 button{
-  width:50%;
+.projects ul li{
+  list-style: none;
+  display: inline-block;
 }
+
+.projects{
+  width: 100%;
+}
+
 
 
 /* -----------------Education------------------*/
