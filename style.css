@@ -23,7 +23,7 @@ h1{
 }
 
 h2{
-
+  font-size: 50px;
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #d77924;
@@ -108,7 +108,9 @@ i{
   padding: 1em 2.5em 1em 2.5em;
 }
 
-
+.projects ul li img{
+  display: inline-block;
+}
 
 
 /* -----------------Education------------------*/
