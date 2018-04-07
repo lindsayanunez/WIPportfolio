@@ -88,8 +88,9 @@ i{
 
 .about {
   background-color: #CAEBF2;
-  padding: 100px;
-  margin-top:70px;
+  padding: 10px;
+  margin-top:10px;
+  height: 30em;
 }
 
 /* -----------------PROJECTS------------------*/
