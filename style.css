@@ -86,6 +86,10 @@ i{
   margin:20px;
 }
 
+.services{
+  padding-bottom: 3em;
+}
+
 .aboutMe{
   background-color: #CAEBF2;
   height: 30em;
@@ -114,6 +118,7 @@ i{
 }
 
 /* -----------------PROJECTS------------------*/
+
 .projects{
   width: 100%;
 }
