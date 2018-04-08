@@ -89,6 +89,7 @@ i{
 .aboutMe{
   background-color: #CAEBF2;
   height: 30em;
+    padding: 3em;
 }
 
 .aboutMe ul{
@@ -100,6 +101,16 @@ i{
   font-size: 1.5em;
   display: inline-block;
   padding: 0.5em;
+}
+
+.aboutMe img{
+  display: inline-block;
+  margin: auto;
+}
+
+.aboutText{
+  display: block;
+  margin:auto;
 }
 
 /* -----------------PROJECTS------------------*/
