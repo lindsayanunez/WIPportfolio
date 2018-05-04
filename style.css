@@ -93,7 +93,7 @@ i{
 .aboutMe{
   background-color: #CAEBF2;
   height: 30em;
-    padding: 3em;
+  padding: 3em;
 }
 
 .aboutMe ul{
@@ -141,9 +141,17 @@ i{
 
 /* -----------------Education------------------*/
 
-  #education h2{
+  .education h1{
+    font-size: 50px;
+  }
+  .education h2{
     padding-bottom: 0.25em;
     margin-bottom: 0.25em;
+    font-size: 40px;
+  }
+
+  h3{
+    text-align: center;
   }
 
   h4{
@@ -151,7 +159,7 @@ i{
     font-size:1em;
   }
 
-  #lsu{
+  .lsu{
     padding-top:3%;
     padding-bottom:3%;
 
