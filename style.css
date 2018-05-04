@@ -159,15 +159,17 @@ i{
     font-size:1em;
   }
 
-  .lsu{
-    padding-top:3%;
-    padding-bottom:3%;
-
-  }
-
   .education hr{
    border-color:#CAEBF2;
     border-width: 2px;
+  }
+
+  .description{
+    line-height: 10em;
+  }
+
+  .description p{
+    vertical-align: middle;
   }
 
 /* -----------------Footer------------------*/
