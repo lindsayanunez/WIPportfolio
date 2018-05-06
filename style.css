@@ -1,17 +1,12 @@
-.header{
-  background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header.jpg");
-  background-repeat:no-repeat;
-  background-size:100%;
-  background-position:center;
-  padding: 200px;
-  margin-bottom: 30px;
-}
-
 body {
   color: #A9A9A9;
   font-family: 'Raleway', sans-serif;
   background-color:#EFEFEF;
+}
 
+i{
+  color: #d77924;
+  padding-top: 10px;
 }
 
 h1{
@@ -19,7 +14,7 @@ h1{
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #d77924;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 h2{
@@ -27,8 +22,30 @@ h2{
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #d77924;
-  padding: 30px;
 }
+
+/**********HOME PAGE HEADING**********/
+
+.header{
+  background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header.jpg");
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position:center;
+  padding: 200px;
+}
+
+@media screen and (max-width: 800px){
+  .header{
+    padding: 100px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .header{
+    padding: 50px;
+  }
+}
+
 
 .header h1{
 font-size: 125px;
@@ -38,17 +55,25 @@ font-size: 125px;
   font-size: 75px;
 }
 
-i{
-  color: #d77924;
-  padding-top: 10px;
-}
+@media screen and (max-width: 1032px){
+  .header h1{font-size: 100px;}
+  .header h2{font-size: 40px;}}
+
+@media screen and (max-width: 860px){
+  .header h1{font-size: 75px;}
+  .header h2{font-size: 25px;}}
+
+
 
 /**********SERVICES**********/
+.myServices{
+  padding-top: 5em;
+}
 
 .service{
   width:100%;
   text-align:center;
-  padding:2em;
+  padding:2em 3em;
 }
 
 .service h3, p{
@@ -67,9 +92,10 @@ i{
 .aboutMe{
   background-color: #CAEBF2;
   height: 100%;
-  padding: 3em;
+  padding: 5em 3em;
   justify-content: center; /* align horizontal */
   align-items: center;
+  margin-top:5em;
 }
 
 .aboutMe ul{
@@ -112,10 +138,13 @@ i{
 
 /* -----------------PROJECTS------------------*/
 
+.portfolio{
+  padding-top: 5em;
+}
+
 .projects{
   width: 100%;
 }
-
 
 .projects ul{
   text-align: center;
@@ -133,6 +162,8 @@ i{
 
 .projects h3{
   font-size: 20px;
+  text-align: center;
+  padding-top: 0.5em;
 }
 
 
