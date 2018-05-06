@@ -170,11 +170,15 @@ i{
   }
 
   .description{
-    line-height: 10em;
   }
 
   .description p{
     vertical-align: middle;
+  }
+
+ .flex-container{
+    display: flex;
+    flex-wrap: wrap;
   }
 
 /* -----------------Footer------------------*/
