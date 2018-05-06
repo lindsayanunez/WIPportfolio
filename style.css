@@ -43,6 +43,8 @@ i{
   padding-top: 10px;
 }
 
+/**********SERVICES**********/
+
 .service{
   width:100%;
   text-align:center;
@@ -60,9 +62,11 @@ i{
   padding-bottom: 3em;
   }}
 
+/**********ABOUT ME**********/
+
 .aboutMe{
   background-color: #CAEBF2;
-  height: 30em;
+  height: 100%;
   padding: 3em;
 }
 
@@ -83,10 +87,22 @@ i{
   width: 250px;
 }
 
+.about{
+  width:50%;
+}
+
 .aboutText{
   display: block;
   margin:auto;
+  width:50%;
 }
+
+@media screen and (min-width: 800px){
+  .about{width:50%;}
+  .aboutText{width:50%;}
+}
+
+
 
 /* -----------------PROJECTS------------------*/
 
