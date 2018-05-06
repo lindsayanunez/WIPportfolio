@@ -1,11 +1,11 @@
 body {
-  color: #A9A9A9;
+  color: #404040;
   font-family: 'Raleway', sans-serif;
-  background-color:#EFEFEF;
+  background-color:white;
 }
 
 i{
-  color: #d77924;
+  color: #404040;
   padding-top: 10px;
 }
 
@@ -13,7 +13,7 @@ h1{
 
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #d77924;
+  color: #404040;
   margin-bottom: 10px;
 }
 
@@ -21,13 +21,20 @@ h2{
   font-size: 50px;
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #d77924;
+  color: #404040;
 }
 
+.brushStroke{
+  width:20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 /**********HOME PAGE HEADING**********/
 
 .header{
-  background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header.jpg");
+  background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header2.jpg");
   background-repeat:no-repeat;
   background-size:100%;
   background-position:center;
@@ -90,7 +97,8 @@ font-size: 125px;
 /**********ABOUT ME**********/
 
 .aboutMe{
-  background-color: #CAEBF2;
+/*  background-color: #CAEBF2;*/
+background-color:#FDE4E7;
   height: 100%;
   padding: 5em 3em;
   justify-content: center; /* align horizontal */
@@ -189,7 +197,7 @@ font-size: 125px;
   }
 
   .education hr{
-   border-color:#CAEBF2;
+   border-color:#FDE4E7;
     border-width: 2px;
   }
 
@@ -231,7 +239,8 @@ font-size: 125px;
         width:109%;
         margin-left:-5%;
         margin-bottom: 0;
-    background-color: #d77924;
+/*    background-color: #d77924;*/
+    background-color: #EFEEED;
     background-size: 100%;
     text-align: center;
     color: #efefef;
@@ -241,7 +250,7 @@ font-size: 125px;
 }
 
 .footer i {
-  color:#efefef;
+  color:#404040;
   font-size: 35px;
   padding:1em 1em 1em 1em;
 }
