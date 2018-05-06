@@ -68,6 +68,8 @@ i{
   background-color: #CAEBF2;
   height: 100%;
   padding: 3em;
+  justify-content: center; /* align horizontal */
+  align-items: center;
 }
 
 .aboutMe ul{
@@ -81,20 +83,24 @@ i{
   padding: 0.5em;
 }
 
-.aboutMe img{
-  display: inline-block;
+.aboutMe .about img{
   margin: auto;
-  width: 250px;
+  min-width: 250px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
 }
 
 .about{
-  width:50%;
+  width:100%;
 }
 
 .aboutText{
   display: block;
   margin:auto;
-  width:50%;
+  width:100%;
 }
 
 @media screen and (min-width: 800px){
