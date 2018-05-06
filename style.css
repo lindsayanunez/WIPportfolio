@@ -45,7 +45,8 @@ i{
 
 .service{
   width:100%;
-  text-align:center
+  text-align:center;
+  padding:2em;
 }
 
 .service h3, p{
