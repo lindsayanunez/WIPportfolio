@@ -170,6 +170,12 @@ i{
     border-width: 2px;
   }
 
+.school{width:100%;}
+
+@media screen and (min-width: 800px){
+  .school{width:50%;}
+
+
 .info{width:100%;}
 .description{width:100%;}
 
