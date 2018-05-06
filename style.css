@@ -170,12 +170,14 @@ i{
     border-width: 2px;
   }
 
-  .description{
-  }
+.info{width:100%;}
+.description{width:100%;}
 
-  .description p{
-    vertical-align: middle;
-  }
+@media screen and (min-width: 800px){
+  .info{width:40%;}
+  .description{width:60%;}
+
+
 
  .flex-container{
     display: flex;
@@ -189,7 +191,7 @@ i{
    .awards{width:30%;}
   .certificates{width:30%;}
   .volunteer{width:30%;}
-}
+}}
 /* -----------------Footer------------------*/
 
 .footer{
