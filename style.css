@@ -110,6 +110,7 @@ i{
 .aboutMe img{
   display: inline-block;
   margin: auto;
+  width: 250px;
 }
 
 .aboutText{
