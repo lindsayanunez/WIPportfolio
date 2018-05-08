@@ -221,6 +221,10 @@ opacity: 50%;
     display: flex;
     flex-wrap: wrap;
   }
+
+.job{
+  padding:2em;}
+
  .awards{width:100%;}
   .certificates{width:100%;}
   .volunteer{width:100%;}
