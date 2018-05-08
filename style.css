@@ -98,7 +98,8 @@ font-size: 125px;
 
 .aboutMe{
 /*  background-color: #CAEBF2;*/
-background-color:#FDE4E7;
+background-color:#ccddd5;
+opacity: 50%;
   height: 100%;
   padding: 5em 3em;
   justify-content: center; /* align horizontal */
@@ -197,7 +198,7 @@ background-color:#FDE4E7;
   }
 
   .education hr{
-   border-color:#FDE4E7;
+   border-color:#ccddd5;
     border-width: 2px;
   }
 
