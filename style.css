@@ -204,6 +204,10 @@ opacity: 50%;
   padding:2em;
   }
 
+  .description{
+    text-align: left;
+  }
+
 @media screen and (min-width: 800px){
   .school{width:50%;}
 
