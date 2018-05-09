@@ -177,7 +177,7 @@ opacity: 50%;
 
 
 /* -----------------Education------------------*/
-  .education{
+  .education h2, h3, h4{
     text-align: center;
   }
 
@@ -197,11 +197,16 @@ opacity: 50%;
   .education hr{
    border-color:#ccddd5;
     border-width: 2px;
+    margin-bottom: 5em;
+    margin-top: 5em;
   }
 
 .school{
   width:100%;
-  padding:2em;
+  }
+
+  .education .school{
+    padding:2em;
   }
 
   .description{
@@ -232,6 +237,10 @@ opacity: 50%;
  .awards{width:100%;}
   .certificates{width:100%;}
   .volunteer{width:100%;}
+
+  .awards ul li{
+    text-align: left;
+  }
 
 @media screen and (min-width: 800px){
    .awards{width:30%;}
