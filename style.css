@@ -32,12 +32,13 @@ h2{
     width: 40%;
 }
 
+
 /**********HOME PAGE HEADING**********/
 
 .header{
   background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header2.jpg");
   background-repeat:no-repeat;
-  background-size:100%;
+  background-size:109%;
   background-position:center;
   padding: 200px;
 }
@@ -59,7 +60,7 @@ h2{
 font-size: 125px;
 }
 
-.header h2{
+.header h2 {
   font-size: 75px;
 }
 
@@ -69,10 +70,17 @@ font-size: 125px;
 
 @media screen and (max-width: 860px){
   .header h1{font-size: 75px;}
-  .header h2{font-size: 25px;}}
+  .header h2{font-size: 25px;}
+ .logo{width: 0.5em;}}
 
+@media screen and (max-width: 500px){
+  .header h1{font-size: 50px;}
+  .header h2{font-size: 25px;}
+ .logo{width: 0.35em;}}
 
-
+.jumbotron{
+  margin-top: 3em;
+}
 /**********SERVICES**********/
 .myServices{
   padding-top: 5em;
@@ -253,12 +261,11 @@ opacity: 50%;
 /* -----------------Footer------------------*/
 
 .footer{
-    width: 100%;
+    width: 110%;
      float:left;
         width:109%;
         margin-left:-5%;
         margin-bottom: 0;
-/*    background-color: #d77924;*/
     background-color: #EFEEED;
     background-size: 100%;
     text-align: center;
