@@ -166,6 +166,8 @@ opacity: 50%;
 
 .projects ul{
   text-align: center;
+  list-style: none;
+  padding-left: 0;
 }
 
 .projects ul li{
