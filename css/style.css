@@ -32,6 +32,9 @@ body {
      margin-right: auto;
      width: 40%;
 }
+.navbar-collapse.collapse.in {
+display: block!important;
+}
 /**********HOME PAGE HEADING**********/
  .header {
      background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header2.jpg");
