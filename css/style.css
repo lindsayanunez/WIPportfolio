@@ -1,289 +1,278 @@
 body {
-  color: #404040;
-  font-family: 'Raleway', sans-serif;
-  background-color:white;
+     color: #404040;
+     font-family: 'Raleway', sans-serif;
+     background-color:white;
 }
-
-i {
-  color: #404040;
-  padding-top: 10px;
+ i {
+     color: #404040;
+     padding-top: 10px;
 }
-
-h1 {
-  text-align: center;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #404040;
-  margin-bottom: 10px;
+ h1 {
+     text-align: center;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+     color: #404040;
+     margin-bottom: 10px;
 }
-
-h2 {
-  font-size: 50px;
-  text-align: center;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #404040;
+ h2 {
+     font-size: 50px;
+     text-align: center;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+     color: #404040;
 }
-
-h4 {
-  font-size:1em;
+ h4 {
+     font-size:1em;
 }
-
-.flex-container{
-  display: flex;
-  flex-wrap: wrap;
+ .flex-container{
+     display: flex;
+     flex-wrap: wrap;
 }
-
-.brushStroke {
-  width:20em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+ .brushStroke {
+     width:20em;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
 }
-
 /**********HOME PAGE HEADING**********/
-
-.header {
-  background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header2.jpg");
-  background-repeat:no-repeat;
-  background-size:109%;
-  background-position:center;
-  padding: 200px;
+ .header {
+     background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header2.jpg");
+     background-repeat:no-repeat;
+     background-size:109%;
+     background-position:center;
+     padding: 200px;
 }
-
-.header h1 {
-font-size: 125px;
+ .header h1 {
+     font-size: 125px;
 }
-
-.header h2 {
-  font-size: 75px;
+ .header h2 {
+     font-size: 75px;
 }
-
-.jumbotron {
-  margin-top: 3em;
+ .jumbotron {
+     margin-top: 3em;
 }
-
 /**********HOME PAGE HEADING MEDIA QUERIES**********/
-@media screen and (max-width: 1032px){
-  .header h1{font-size: 100px;}
-  .header h2{font-size: 40px;}}
-
-@media screen and (max-width: 860px){
-  .header h1{font-size: 75px;}
-  .header h2{font-size: 25px;}
-  .logo{width: 0.5em;}}
-
-@media screen and (max-width: 500px){
-  .header h1{font-size: 50px;}
-  .header h2{font-size: 25px;}
-  .logo{width: 0.35em;}
-  .header{padding: 50px;}}
-
+ @media screen and (max-width: 1032px){
+     .header h1{
+        font-size: 100px;
+    }
+     .header h2{
+        font-size: 40px;
+    }
+}
+ @media screen and (max-width: 860px){
+     .header h1{
+        font-size: 75px;
+    }
+     .header h2{
+        font-size: 25px;
+    }
+     .logo{
+        width: 0.5em;
+    }
+}
+ @media screen and (max-width: 500px){
+     .header h1{
+        font-size: 50px;
+    }
+     .header h2{
+        font-size: 25px;
+    }
+     .logo{
+        width: 0.35em;
+    }
+     .header{
+        padding: 50px;
+    }
+}
  @media screen and (max-width: 800px){
-  .header{padding: 100px;}}
-
+     .header{
+        padding: 100px;
+    }
+}
 /**********SERVICES**********/
-.myServices {
-  padding-top: 5em;
+ .myServices {
+     padding-top: 5em;
 }
-
-.service {
-  width:100%;
-  text-align:center;
-  padding:2em 3em;
+ .service {
+     width:100%;
+     text-align:center;
+     padding:2em 3em;
 }
-
-.service h3, p {
-  text-align:center
+ .service h3, p {
+     text-align:center
 }
-
-.myServices {
-  padding-bottom: 3em;
+ .myServices {
+     padding-bottom: 3em;
 }
-
-@media screen and (min-width: 800px) {
-  .service{width:33%;}}
-
+ @media screen and (min-width: 800px) {
+     .service{
+        width:33%;
+    }
+}
 /**********ABOUT ME**********/
-
-.aboutMe {
-  background-color:#ccddd5;
-  opacity: 50%;
-  height: 100%;
-  padding: 5em 3em;
-  justify-content: center; /* align horizontal */
-  align-items: center;
-  margin-top:5em;
+ .aboutMe {
+     background-color:#ccddd5;
+     opacity: 50%;
+     height: 100%;
+     padding: 5em 3em;
+     justify-content: center;
+    /* align horizontal */
+     align-items: center;
+     margin-top:5em;
 }
-
-.aboutMe ul {
-  text-align: center;
+ .aboutMe ul {
+     text-align: center;
 }
-
-.aboutMe ul li {
-  list-style: none;
-  font-size: 1.5em;
-  display: inline-block;
-  padding: 0.5em;
+ .aboutMe ul li {
+     list-style: none;
+     font-size: 1.5em;
+     display: inline-block;
+     padding: 0.5em;
 }
-
-.aboutMe .about img {
-  margin: auto;
-  min-width: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+ .aboutMe .about img {
+     margin: auto;
+     min-width: 250px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
 }
-
-.about {
-  width:100%;
+ .about {
+     width:100%;
 }
-
-.aboutText {
-  display: block;
-  margin:auto;
-  width:100%;
+ .aboutText {
+     display: block;
+     margin:auto;
+     width:100%;
 }
-
-@media screen and (min-width: 800px) {
-  .about{width:50%;}
-  .aboutText{width:50%;}}
-
+ @media screen and (min-width: 800px) {
+     .about{
+        width:50%;
+    }
+     .aboutText{
+        width:50%;
+    }
+}
 /* -----------------PROJECTS------------------*/
-
-.portfolio {
-  padding-top: 5em;
+ .portfolio {
+     padding-top: 5em;
 }
-
-.projects {
-  width: 100%;
+ .projects {
+     width: 100%;
 }
-
-.projects ul {
-  text-align: center;
-  list-style: none;
-  padding-left: 0;
+ .projects ul {
+     text-align: center;
+     list-style: none;
+     padding-left: 0;
 }
-
-.projects ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 1em 2.5em 1em 2.5em;
+ .projects ul li {
+     list-style: none;
+     display: inline-block;
+     padding: 1em 2.5em 1em 2.5em;
 }
-
-.projects ul li img {
-  display: inline-block;
+ .projects ul li img {
+     display: inline-block;
 }
-
-.projects h3 {
-  font-size: 20px;
-  text-align: center;
-  padding-top: 0.5em;
+ .projects h3 {
+     font-size: 20px;
+     text-align: center;
+     padding-top: 0.5em;
 }
-
-
 /* -----------------Education------------------*/
-.education h2, h3, h4 {
-  text-align: center;
+ .education h2, h3, h4 {
+     text-align: center;
 }
-
-.education h1 {
-  font-size: 50px;
+ .education h1 {
+     font-size: 50px;
 }
-
-.education h2 {
-  padding-bottom: 0.25em;
-  margin-bottom: 0.25em;
-  font-size: 40px;
+ .education h2 {
+     padding-bottom: 0.25em;
+     margin-bottom: 0.25em;
+     font-size: 40px;
 }
-
-.education hr {
-  border-color:#ccddd5;
-  border-width: 2px;
-  margin-bottom: 5em;
-  margin-top: 5em;
+ .education hr {
+     border-color:#ccddd5;
+     border-width: 2px;
+     margin-bottom: 5em;
+     margin-top: 5em;
 }
-
-.school{
-  width: 100%;
+ .school{
+     width: 100%;
 }
-
-.education .school{
-  padding: 2em;
+ .education .school{
+     padding: 2em;
 }
-
 /* -----------------WORK EXPERIENCE------------------*/
-
-.description {
-  text-align: left;
+ .description {
+     text-align: left;
 }
-
-.info {
-  width:100%;
+ .info {
+     width:100%;
 }
-
-.description {
-  width:100%;
+ .description {
+     width:100%;
 }
-
-.job{
-  padding:2em;}
-
-.awards {
-  width:100%;
+ .job{
+     padding:2em;
 }
-
-.certificates {
-  width:100%;
+ .awards {
+     width:100%;
 }
-
-.volunteer {
-  width:100%;
+ .certificates {
+     width:100%;
 }
-
-.awards ul li{
-  text-align: left;
+ .volunteer {
+     width:100%;
 }
-
-@media screen and (min-width: 800px){
-  .school{width:50%;}
-
-@media screen and (min-width: 800px){
-  .info{width:40%;}
-  .description{width:60%;}
-
-@media screen and (min-width: 800px){
-   .awards{width:30%;}
-  .certificates{width:30%;}
-  .volunteer{width:30%;}
-}}}
-
-
+ .awards ul li{
+     text-align: left;
+}
+ @media screen and (min-width: 800px){
+     .school{
+        width:50%;
+    }
+     @media screen and (min-width: 800px){
+         .info{
+            width:40%;
+        }
+         .description{
+            width:60%;
+        }
+         @media screen and (min-width: 800px){
+             .awards{
+                width:30%;
+            }
+             .certificates{
+                width:30%;
+            }
+             .volunteer{
+                width:30%;
+            }
+        }
+    }
+}
 /* -----------------Footer------------------*/
-
-.footer {
-  width: 110%;
-  float:left;
-  width:109%;
-  margin-left:-5%;
-  margin-bottom: 0;
-  background-color: #EFEEED;
-  background-size: 100%;
-  text-align: center;
-  color: #efefef;
-  margin-top: 10%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+ .footer {
+     width: 110%;
+     float:left;
+     width:109%;
+     margin-left:-5%;
+     margin-bottom: 0;
+     background-color: #EFEEED;
+     background-size: 100%;
+     text-align: center;
+     color: #efefef;
+     margin-top: 10%;
+     padding-top: 2%;
+     padding-bottom: 2%;
 }
-
-.footer i {
-  color:#404040;
-  font-size: 35px;
-  padding:1em 1em 1em 1em;
+ .footer i {
+     color:#404040;
+     font-size: 35px;
+     padding:1em 1em 1em 1em;
 }
-
-@media screen and (max-width: 585px){
-  .footer i {
-  font-size: 25px;
-  padding:1em 0.5em 1em 0.5em;
-}
+ @media screen and (max-width: 585px){
+     .footer i {
+         font-size: 25px;
+         padding:1em 0.5em 1em 0.5em;
+    }
