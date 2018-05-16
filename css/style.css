@@ -27,7 +27,6 @@ body {
      flex-wrap: wrap;
 }
  .brushStroke {
-     width:20em;
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -53,40 +52,40 @@ body {
 /**********HOME PAGE HEADING MEDIA QUERIES**********/
  @media screen and (max-width: 1032px){
      .header h1{
-        font-size: 100px;
+         font-size: 100px;
     }
      .header h2{
-        font-size: 40px;
+         font-size: 40px;
     }
 }
  @media screen and (max-width: 860px){
      .header h1{
-        font-size: 75px;
+         font-size: 75px;
     }
      .header h2{
-        font-size: 25px;
+         font-size: 25px;
     }
      .logo{
-        width: 0.5em;
+         width: 0.5em;
     }
 }
  @media screen and (max-width: 500px){
      .header h1{
-        font-size: 50px;
+         font-size: 50px;
     }
      .header h2{
-        font-size: 25px;
+         font-size: 25px;
     }
      .logo{
-        width: 0.35em;
+         width: 0.35em;
     }
      .header{
-        padding: 50px;
+         padding: 50px;
     }
 }
  @media screen and (max-width: 800px){
      .header{
-        padding: 100px;
+         padding: 100px;
     }
 }
 /**********SERVICES**********/
@@ -106,7 +105,7 @@ body {
 }
  @media screen and (min-width: 800px) {
      .service{
-        width:33%;
+         width:33%;
     }
 }
 /**********ABOUT ME**********/
@@ -147,10 +146,10 @@ body {
 }
  @media screen and (min-width: 800px) {
      .about{
-        width:50%;
+         width:50%;
     }
      .aboutText{
-        width:50%;
+         width:50%;
     }
 }
 /* -----------------PROJECTS------------------*/
@@ -229,33 +228,30 @@ body {
 }
  @media screen and (min-width: 800px){
      .school{
-        width:50%;
-    }
+         width:50%;
+    }}
      @media screen and (min-width: 800px){
          .info{
-            width:40%;
+             width:40%;
         }
          .description{
-            width:60%;
-        }
+             width:60%;
+        }}
          @media screen and (min-width: 800px){
              .awards{
-                width:30%;
+                 width:30%;
             }
              .certificates{
-                width:30%;
+                 width:30%;
             }
              .volunteer{
-                width:30%;
+                 width:30%;
             }
         }
-    }
-}
 /* -----------------Footer------------------*/
  .footer {
      width: 110%;
      float:left;
-     width:109%;
      margin-left:-5%;
      margin-bottom: 0;
      background-color: #EFEEED;
@@ -276,3 +272,4 @@ body {
          font-size: 25px;
          padding:1em 0.5em 1em 0.5em;
     }
+}
