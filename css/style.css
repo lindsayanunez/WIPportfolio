@@ -37,11 +37,11 @@ display: block!important;
 }
 /**********HOME PAGE HEADING**********/
  .header {
-     background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header2.jpg");
+     background-image: url("file:///Users/lindsayanunez/Desktop/Portfolio/images/header4.jpg");
      background-repeat:no-repeat;
-     background-size:109%;
+     background-size:109% 75%;
      background-position:center;
-     padding: 200px;
+     padding: 150px 0;
 }
  .header h1 {
      font-size: 125px;
@@ -174,8 +174,8 @@ display: block!important;
 }
  .projects ul li img {
      display: inline-block;
-     width: 250px;
-     height: 250px;
+     width: 275px;
+     height: 275px;
 }
  .projects h3 {
      font-size: 20px;
