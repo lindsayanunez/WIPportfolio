@@ -231,13 +231,14 @@ display: block!important;
      padding: 2em;
 }
 /* -----------------WORK EXPERIENCE------------------*/
+ .jobs{
+    padding-top: 3em;
+ }
  .description {
      text-align: left;
-}
- .info {
      width:100%;
 }
- .description {
+ .info {
      width:100%;
 }
  .job{
