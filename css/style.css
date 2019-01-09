@@ -46,6 +46,10 @@ display: block!important;
 .navbar img{
     height:3em;
 }
+
+.btn:hover{
+    color:white;
+}
 /**********HOME PAGE HEADING**********/
  .header {
 /*    background-image: url(header.jpg);*/
