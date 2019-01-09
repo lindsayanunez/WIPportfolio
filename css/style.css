@@ -45,7 +45,7 @@ display: block!important;
 /**********HOME PAGE HEADING**********/
  .header {
 /*     background-image: url("https://lindsayanunez.github.io/images/newHeader.jpg");*/
-    background-image: url("newHeader.jpg");
+    background-image: url(header.jpg);
 /*    background-color:#ccddd5;*/
      background-repeat:no-repeat;
      background-size:109% 75%;
