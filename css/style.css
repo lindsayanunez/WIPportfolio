@@ -212,10 +212,13 @@ display: block!important;
 
 .intro{
     margin-bottom: 4em;
-    background-color: #EFEEED;
     padding: 3em;
     width: 75%;
     border-radius: 5px;
+}
+
+.gray{
+    background-color: #EFEEED;
 }
 
 .logo{
