@@ -9,7 +9,8 @@ body {
      color: #404040;
      font-family: 'Raleway', sans-serif;
      background-color:white;
-}
+/*     padding-top: 150px;
+*/}
  i {
      color: #404040;
      padding-top: 10px;
@@ -47,14 +48,10 @@ display: block!important;
     height:3em;
 }
 
-.btn:hover{
-    color:white;
-}
+
 /**********HOME PAGE HEADING**********/
  .header {
-/*    background-image: url(header.jpg);*/
      background-image: url("https://lindsayanunez.github.io/images/header.jpg");
-/*    background-color:#ccddd5;*/
      background-repeat:no-repeat;
      background-size: cover;
      background-position:center;
@@ -212,12 +209,14 @@ display: block!important;
 
 
 /* -----------------Education------------------*/
-.jumbotron {
-    position: abosolute;
+/*#intro {
+    position: relative;
     top: 500px;
 
+}*/
+.intro{
+    padding-bottom: 4em;
 }
-
  .education h2, h3, h4 {
      text-align: center;
 }
