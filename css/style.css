@@ -56,7 +56,7 @@ display: block!important;
      background-image: url("https://lindsayanunez.github.io/images/header.jpg");
 /*    background-color:#ccddd5;*/
      background-repeat:no-repeat;
-     background-size: contain;
+     background-size: cover;
      background-position:center;
      padding: 150px 0;
      margin:0;
@@ -89,6 +89,7 @@ display: block!important;
          font-size: 25px;
     }
 }
+
  @media screen and (max-width: 500px){
      .header h1{
          font-size: 3.5em;
@@ -241,6 +242,7 @@ display: block!important;
      padding: 2em;
 }
 /* -----------------WORK EXPERIENCE------------------*/
+
  .jobs{
     padding-top: 3em;
  }
