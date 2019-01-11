@@ -99,16 +99,23 @@ display: block!important;
     }
      .jumbotron {
      margin-top: 0;
-}
+    }
+    .intro h3{
+        font-size: 0.5em;
+    }
 }
  @media screen and (max-width: 800px){
      .header{
          padding: 100px;
     }
+    .intro h3{
+        font-size: 1.5em;
+        padding: 0;
+    }
 }
 /**********SERVICES**********/
  .myServices {
-     padding-top: 5em;
+     padding-top: 1em;
 }
  .service {
      width:100%;
