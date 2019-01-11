@@ -72,27 +72,27 @@ display: block!important;
 /**********HOME PAGE HEADING MEDIA QUERIES**********/
  @media screen and (max-width: 1032px){
      .header h1{
-         font-size: 100px;
+         font-size: 6em;
     }
      .header h2{
-         font-size: 40px;
+         font-size: 4em;
     }
 }
  @media screen and (max-width: 860px){
      .header h1{
-         font-size: 75px;
+         font-size: 5em;
     }
      .header h2{
-         font-size: 25px;
+         font-size: 3em;
     }
 }
 
  @media screen and (max-width: 500px){
      .header h1{
-         font-size: 3.5em;
+         font-size: 4em;
     }
      .header h2{
-         font-size: 1em;
+         font-size: 2em;
     }
      .header{
          padding: 50px;
