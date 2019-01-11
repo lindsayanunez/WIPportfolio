@@ -222,12 +222,40 @@ display: block!important;
 }
 
 .logo{
-    width:30%;
+    width:100%;
+    margin: 0 auto;
 }
 
 .work-intro{
-    width:70%;
+    width:100%;
 }
+
+ @media screen and (min-width: 1040px){
+     .logo{
+         width:30%;
+    }
+     .work-intro{
+         width:70%;
+    }}
+
+ @media screen and (max-width: 1040px){
+     .logo{
+         width:50%;
+    }
+     .work-intro{
+         width:50%;
+    }}
+
+ @media screen and (max-width: 800px){
+     .logo{
+         width:100%;
+         display: inline-block;
+         text-align: center;
+    }
+     .work-intro{
+         width:100%;
+    }}
+
 
  .education h2, h3, h4 {
      text-align: center;
