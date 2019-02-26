@@ -48,6 +48,11 @@ display: block!important;
     height:3em;
 }
 
+/*.button {
+    width:100%;
+    margin:auto;
+}*/
+
 
 /**********HOME PAGE HEADING**********/
  .header {
@@ -222,7 +227,7 @@ display: block!important;
 .intro{
     margin-bottom: 2em;
     padding: 3em;
-    width: 75%;
+    width: 85%;
     border-radius: 5px;
 }
 
