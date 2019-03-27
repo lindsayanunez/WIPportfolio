@@ -57,8 +57,8 @@ display: block!important;
 /**********HOME PAGE HEADING**********/
  .header {
      background:
-        linear-gradient(rgb(220,220,220, 1), rgb(220,220,220, .1)),
-        url("https://lindsayanunez.github.io/images/header.jpg");
+        linear-gradient(rgb(220,220,220, .5), rgb(220,220,220, .5)),
+        url("https://lindsayanunez.github.io/images/header2.jpg");
      background-repeat:no-repeat;
      background-size: cover;
      background-position:center;
